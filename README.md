@@ -246,6 +246,15 @@ Python example code for a Digital Image Processing course, covering spatial/freq
 
 ---
 
+## 聯絡方式 / Contact
+
+如有任何問題或建議，歡迎來信。/ Feel free to reach out for questions or suggestions.
+
+- 📧 [hankchou10655006@gmail.com](mailto:hankchou10655006@gmail.com)
+- 📧 [412410077@o365.tku.edu.tw](mailto:412410077@o365.tku.edu.tw)
+
+---
+
 ## 環境需求 / Requirements
 
 ```
