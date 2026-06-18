@@ -246,15 +246,6 @@ Python example code for a Digital Image Processing course, covering spatial/freq
 
 ---
 
-## 聯絡方式 / Contact
-
-如有任何問題或建議，歡迎來信。/ Feel free to reach out for questions or suggestions.
-
-- 📧 [hankchou10655006@gmail.com](mailto:hankchou10655006@gmail.com)
-- 📧 [412410077@o365.tku.edu.tw](mailto:412410077@o365.tku.edu.tw)
-
----
-
 ## 注意事項 / Notes
 
 > ⚠️ **路徑限制 / Path Restriction**
@@ -282,11 +273,11 @@ tensorflow / keras
 
 ---
 
-## 專題諮詢 / Project Consultation
+## 聯絡方式 / Contact
 
-對本專題的實作內容、演算法原理或程式碼有任何疑問，歡迎直接聯絡，將盡力協助解答。
+對本專題的實作內容、演算法原理或程式碼有任何疑問，或有其他問題與建議，歡迎直接聯絡，將盡力協助解答。
 
-If you have questions about the implementation, algorithms, or code in this project, feel free to reach out.
+If you have questions about the implementation, algorithms, or code in this project, or any other suggestions, feel free to reach out.
 
 - 📧 [hankchou10655006@gmail.com](mailto:hankchou10655006@gmail.com)
 - 📧 [412410077@o365.tku.edu.tw](mailto:412410077@o365.tku.edu.tw)
