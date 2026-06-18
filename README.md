@@ -7,6 +7,19 @@ Python example code for a Digital Image Processing course, covering spatial/freq
 
 ---
 
+## 注意事項 / Notes
+
+> ⚠️ **路徑限制 / Path Restriction**
+>
+> OpenCV 在 Windows 上**不支援路徑含有中文或特殊字元**。請確認專案資料夾與所有上層目錄的名稱均為**英文**，否則 `cv2.imread()` 將無法讀取圖片並回傳錯誤。
+>
+> OpenCV on Windows **does not support non-ASCII characters in file paths**. Please ensure the project folder and all parent directories use **English names only**, otherwise `cv2.imread()` will fail to load images.
+>
+> ✅ 正確：`C:\Users\John\Desktop\DIP\Ch02\`
+> ❌ 錯誤：`C:\Users\使用者\桌面\影像處理\Ch02\`
+
+---
+
 ## 目錄 / Table of Contents
 
 | 章節 | 主題 |
@@ -243,19 +256,6 @@ Python example code for a Digital Image Processing course, covering spatial/freq
 | [gaussian_function.py](ChA/gaussian_function.py) | 高斯函數及一/二階導數（LoG）/ Gaussian function and its derivatives |
 | [gaussian_function2D.py](ChA/gaussian_function2D.py) | 二維高斯函數 3D 曲面圖 / 2D Gaussian function with 3D surface plot |
 | [pca_example.py](ChA/pca_example.py) | 主成分分析（手動 + sklearn）/ PCA with manual covariance and sklearn |
-
----
-
-## 注意事項 / Notes
-
-> ⚠️ **路徑限制 / Path Restriction**
->
-> OpenCV 在 Windows 上**不支援路徑含有中文或特殊字元**。請確認專案資料夾與所有上層目錄的名稱均為**英文**，否則 `cv2.imread()` 將無法讀取圖片並回傳錯誤。
->
-> OpenCV on Windows **does not support non-ASCII characters in file paths**. Please ensure the project folder and all parent directories use **English names only**, otherwise `cv2.imread()` will fail to load images.
->
-> ✅ 正確：`C:\Users\John\Desktop\DIP\Ch02\`
-> ❌ 錯誤：`C:\Users\使用者\桌面\影像處理\Ch02\`
 
 ---
 
