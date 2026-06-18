@@ -255,6 +255,19 @@ Python example code for a Digital Image Processing course, covering spatial/freq
 
 ---
 
+## 注意事項 / Notes
+
+> ⚠️ **路徑限制 / Path Restriction**
+>
+> OpenCV 在 Windows 上**不支援路徑含有中文或特殊字元**。請確認專案資料夾與所有上層目錄的名稱均為**英文**，否則 `cv2.imread()` 將無法讀取圖片並回傳錯誤。
+>
+> OpenCV on Windows **does not support non-ASCII characters in file paths**. Please ensure the project folder and all parent directories use **English names only**, otherwise `cv2.imread()` will fail to load images.
+>
+> ✅ 正確：`C:\Users\John\Desktop\DIP\Ch02\`
+> ❌ 錯誤：`C:\Users\使用者\桌面\影像處理\Ch02\`
+
+---
+
 ## 環境需求 / Requirements
 
 ```
@@ -266,3 +279,14 @@ scikit-learn
 PyWavelets
 tensorflow / keras
 ```
+
+---
+
+## 專題諮詢 / Project Consultation
+
+對本專題的實作內容、演算法原理或程式碼有任何疑問，歡迎直接聯絡，將盡力協助解答。
+
+If you have questions about the implementation, algorithms, or code in this project, feel free to reach out.
+
+- 📧 [hankchou10655006@gmail.com](mailto:hankchou10655006@gmail.com)
+- 📧 [412410077@o365.tku.edu.tw](mailto:412410077@o365.tku.edu.tw)
