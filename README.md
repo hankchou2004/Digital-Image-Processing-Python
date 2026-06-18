@@ -18,6 +18,15 @@ Python example code for a Digital Image Processing course, covering spatial/freq
 > ✅ 正確：`C:\Users\John\Desktop\DIP\Ch02\`
 > ❌ 錯誤：`C:\Users\使用者\桌面\影像處理\Ch02\`
 
+> ⚠️ **工作目錄限制 / Working Directory Restriction**
+>
+> 各章節腳本使用**相對路徑**讀取圖片（如 `cv2.imread("Lenna.bmp")`），OpenCV 會從**執行指令時的工作目錄**尋找檔案，而非腳本所在的資料夾。請先 `cd` 進入對應章節資料夾後再執行，否則會出現 `can't open/read file` 錯誤。
+>
+> Each chapter's script uses a **relative path** (e.g. `cv2.imread("Lenna.bmp")`). OpenCV resolves it from the **current working directory**, not the script's folder. Always `cd` into the chapter folder first, or the file will not be found.
+>
+> ✅ 正確執行方式：`cd Ch02` → `python display_image.py`
+> ❌ 錯誤執行方式：在上層目錄執行 `python Ch02/display_image.py`
+
 ---
 
 ## 目錄 / Table of Contents
